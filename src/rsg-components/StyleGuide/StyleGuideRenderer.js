@@ -106,7 +106,7 @@ export function StyleGuideRenderer(props) {
 			</main>
 			{hasSidebar &&
 				<div className={cx(classes.sidebar, 'sidebar')}>
-					<a href="/" className={classes.logo}>
+					<a href="/latest/index.html" className={classes.logo}>
 						{RCLlogo()}
 					</a>
 					{renderListModeToggle(selectedListType, listTypes, onListToggle, classes)}
